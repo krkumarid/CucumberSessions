@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CucumberSession
+Bundle-SymbolicName: CucumberSession
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: CucumberSession
+Export-Package: AmazonImplementation,
+ stepDefenitions,
+ testRunners

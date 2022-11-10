@@ -1,0 +1,4 @@
+stepDefenitions\UberStepDefenitions.class
+testRunners\UberTestRunner.class
+testRunners\AmazonTest.class
+stepDefenitions\SearchSteps.class

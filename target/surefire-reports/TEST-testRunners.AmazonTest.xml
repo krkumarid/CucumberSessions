@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunners.AmazonTest" time="0.414" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\JavaXps\CucumberSession\target\test-classes;D:\JavaXps\CucumberSession\target\classes;C:\Users\rajee\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\rajee\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-java\7.6.0\cucumber-java-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-core\7.6.0\cucumber-core-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-gherkin\7.6.0\cucumber-gherkin-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.6.0\cucumber-gherkin-messages-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\messages\19.0.0\messages-19.0.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\datatable\7.6.0\datatable-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-plugin\7.6.0\cucumber-plugin-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\docstring\7.6.0\docstring-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\html-formatter\20.0.0\html-formatter-20.0.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\rajee\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.6.0\cucumber-junit-platform-engine-7.6.0.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\rajee\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-junit\7.6.0\cucumber-junit-7.6.0.jar;C:\Users\rajee\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-runner\1.8.2\junit-platform-runner-1.8.2.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\rajee\AppData\Local\Temp\surefire10198399569126780352\surefirebooter16831820147619006529.jar C:\Users\rajee\AppData\Local\Temp\surefire10198399569126780352 2022-08-28T16-31-15_654-jvmRun1 surefire15475690969906731332tmp surefire_014237070080801793687tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\JavaXps\CucumberSession\target\test-classes;D:\JavaXps\CucumberSession\target\classes;C:\Users\rajee\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\rajee\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-java\7.6.0\cucumber-java-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-core\7.6.0\cucumber-core-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-gherkin\7.6.0\cucumber-gherkin-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.6.0\cucumber-gherkin-messages-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\messages\19.0.0\messages-19.0.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\datatable\7.6.0\datatable-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-plugin\7.6.0\cucumber-plugin-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\docstring\7.6.0\docstring-7.6.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\html-formatter\20.0.0\html-formatter-20.0.0.jar;C:\Users\rajee\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\rajee\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.6.0\cucumber-junit-platform-engine-7.6.0.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\rajee\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\rajee\.m2\repository\io\cucumber\cucumber-junit\7.6.0\cucumber-junit-7.6.0.jar;C:\Users\rajee\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-runner\1.8.2\junit-platform-runner-1.8.2.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\rajee\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rajee"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.15.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\JavaXps\CucumberSession"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\rajee\AppData\Local\Temp\surefire10198399569126780352\surefirebooter16831820147619006529.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="user.name" value="rajee"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\rajee\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rajee\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.15.1"/>
+    <property name="user.dir" value="D:\JavaXps\CucumberSession"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python310\Scripts\;C:\Python310\;D:\Softwares\WINDOWS.X64_193000_db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Program Files\apache-maven-3.8.4\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\rajee\scoop\shims;C:\Users\rajee\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\rajee\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="check previous order Details" classname="Home Page" time="0.07">
+    <system-out><![CDATA[
+Scenario: check previous order Details        &amp#27;[90m# src/test/resources/AppFeatures/Order.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma registered user exists&amp#27;[0m              &amp#27;[90m# stepDefenitions.OrderSteps.a_registered_user_exists()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Amazon login page&amp#27;[0m          &amp#27;[90m# stepDefenitions.OrderSteps.user_is_on_amazon_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters the name&amp#27;[0m                   &amp#27;[90m# stepDefenitions.OrderSteps.user_enters_the_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the password&amp#27;[0m                &amp#27;[90m# stepDefenitions.OrderSteps.user_enters_the_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks  on login button&amp#27;[0m            &amp#27;[90m# stepDefenitions.OrderSteps.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to the order page&amp#27;[0m       &amp#27;[90m# stepDefenitions.OrderSteps.user_navigates_to_the_order_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on order link&amp#27;[0m              &amp#27;[90m# stepDefenitions.OrderSteps.user_clicks_on_order_link()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser checks the previous order details&amp#27;[0m &amp#27;[90m# stepDefenitions.OrderSteps.user_checks_the_previous_order_details()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="check the open order details" classname="Home Page" time="0.011">
+    <system-out><![CDATA[
+Scenario: check the open order details     &amp#27;[90m# src/test/resources/AppFeatures/Order.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma registered user exists&amp#27;[0m           &amp#27;[90m# stepDefenitions.OrderSteps.a_registered_user_exists()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Amazon login page&amp#27;[0m       &amp#27;[90m# stepDefenitions.OrderSteps.user_is_on_amazon_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters the name&amp#27;[0m                &amp#27;[90m# stepDefenitions.OrderSteps.user_enters_the_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the password&amp#27;[0m             &amp#27;[90m# stepDefenitions.OrderSteps.user_enters_the_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks  on login button&amp#27;[0m         &amp#27;[90m# stepDefenitions.OrderSteps.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to the order page&amp#27;[0m    &amp#27;[90m# stepDefenitions.OrderSteps.user_navigates_to_the_order_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on open order link&amp#27;[0m      &amp#27;[90m# stepDefenitions.OrderSteps.user_clicks_on_open_order_link()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser checks  the open order details&amp#27;[0m &amp#27;[90m# stepDefenitions.OrderSteps.user_cjecks_the_open_order_details()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check the cancelled order details" classname="Home Page" time="0.007">
+    <system-out><![CDATA[
+Scenario: Check the cancelled order details     &amp#27;[90m# src/test/resources/AppFeatures/Order.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma registered user exists&amp#27;[0m                &amp#27;[90m# stepDefenitions.OrderSteps.a_registered_user_exists()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Amazon login page&amp#27;[0m            &amp#27;[90m# stepDefenitions.OrderSteps.user_is_on_amazon_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters the name&amp#27;[0m                     &amp#27;[90m# stepDefenitions.OrderSteps.user_enters_the_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the password&amp#27;[0m                  &amp#27;[90m# stepDefenitions.OrderSteps.user_enters_the_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks  on login button&amp#27;[0m              &amp#27;[90m# stepDefenitions.OrderSteps.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to the order page&amp#27;[0m         &amp#27;[90m# stepDefenitions.OrderSteps.user_navigates_to_the_order_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on cancelled order link&amp#27;[0m      &amp#27;[90m# stepDefenitions.OrderSteps.user_clicks_on_cancelled_order_link()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser checks the  cancelled order details&amp#27;[0m &amp#27;[90m# stepDefenitions.OrderSteps.user_checks_the_cancelled_order_details()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Search a Product" classname="Amazon Search" time="0.01">
+    <system-out><![CDATA[
+Scenario: Search a Product                                                &amp#27;[90m# src/test/resources/AppFeatures/Search.feature:21&amp#27;[0m
+Step 1: I am on Amazon search page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a search field on Amazon Page&amp#27;[0m                              &amp#27;[90m# stepDefenitions.SearchSteps.i_have_a_search_field_on_amazon_page()&amp#27;[0m
+Step 2: Search  the product with name:Apple MacBookPro price:2500
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for a product with name "&amp#27;[0m&amp#27;[32m&amp#27;[1mApple MacBookPro&amp#27;[0m&amp#27;[32m" and price &amp#27;[0m&amp#27;[32m&amp#27;[1m2500&amp#27;[0m &amp#27;[90m# stepDefenitions.SearchSteps.i_search_for_a_product_with_name_and_price(java.lang.String,int)&amp#27;[0m
+Step 3: Product Apple MacBookAir is dispalyed
+Search product :Apple MacBookPro
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mProduct with name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Apple MacBookAir"&amp#27;[0m&amp#27;[32m should be displayed&amp#27;[0m           &amp#27;[90m# stepDefenitions.SearchSteps.product_with_name_should_be_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Booking  Cab Sedan" classname="Uber Booking feature" time="0.016">
+    <system-out><![CDATA[
+@Uber @Smoke @qa-ready @US-1001 @Epic-900
+Scenario: Booking  Cab Sedan                                                         &amp#27;[90m# src/test/resources/AppFeatures/Uber.feature:23&amp#27;[0m
+Step 1 :sedan
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser wants to select a car type &amp#27;[0m&amp#27;[32m&amp#27;[1m"sedan"&amp#27;[0m&amp#27;[32m from uber application&amp#27;[0m                &amp#27;[90m# stepDefenitions.UberStepDefenitions.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)&amp#27;[0m
+Step 2:sedan:Banglore:Pune
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser select car &amp#27;[0m&amp#27;[32m&amp#27;[1m"sedan"&amp#27;[0m&amp#27;[32m and pick up point &amp#27;[0m&amp#27;[32m&amp#27;[1m"Banglore"&amp#27;[0m&amp#27;[32m and drop location &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pune"&amp#27;[0m &amp#27;[90m# stepDefenitions.UberStepDefenitions.user_select_car_and_pick_up_point_and_drop_location(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+Step 3
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mDriver stars the journey&amp#27;[0m                                                      &amp#27;[90m# stepDefenitions.UberStepDefenitions.driver_stars_the_journey()&amp#27;[0m
+Step 4
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcDriver Ends the journey&amp#27;[0m                                                       &amp#27;[90m# stepDefenitions.UberStepDefenitions.c_driver_ends_the_journey()&amp#27;[0m
+Step 5:1000
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser pays &amp#27;[0m&amp#27;[32m&amp#27;[1m1000&amp#27;[0m&amp#27;[32m USD&amp#27;[0m                                                            &amp#27;[90m# stepDefenitions.UberStepDefenitions.user_pays_usd(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Booking  Cab SUV" classname="Uber Booking feature" time="0.015">
+    <system-out><![CDATA[
+@Uber @Regression
+Scenario: Booking  Cab SUV                                                           &amp#27;[90m# src/test/resources/AppFeatures/Uber.feature:30&amp#27;[0m
+Step 1 :SUV
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser wants to select a car type &amp#27;[0m&amp#27;[32m&amp#27;[1m"SUV"&amp#27;[0m&amp#27;[32m from uber application&amp#27;[0m                  &amp#27;[90m# stepDefenitions.UberStepDefenitions.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)&amp#27;[0m
+Step 2:SUV:Banglore:Cochin
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser select car &amp#27;[0m&amp#27;[32m&amp#27;[1m"SUV"&amp#27;[0m&amp#27;[32m and pick up point &amp#27;[0m&amp#27;[32m&amp#27;[1m"Banglore"&amp#27;[0m&amp#27;[32m and drop location &amp#27;[0m&amp#27;[32m&amp#27;[1m"Cochin"&amp#27;[0m &amp#27;[90m# stepDefenitions.UberStepDefenitions.user_select_car_and_pick_up_point_and_drop_location(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+Step 3
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mDriver stars the journey&amp#27;[0m                                                      &amp#27;[90m# stepDefenitions.UberStepDefenitions.driver_stars_the_journey()&amp#27;[0m
+Step 4
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcDriver Ends the journey&amp#27;[0m                                                       &amp#27;[90m# stepDefenitions.UberStepDefenitions.c_driver_ends_the_journey()&amp#27;[0m
+Step 5:1500
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser pays &amp#27;[0m&amp#27;[32m&amp#27;[1m1500&amp#27;[0m&amp#27;[32m USD&amp#27;[0m                                                            &amp#27;[90m# stepDefenitions.UberStepDefenitions.user_pays_usd(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Booking  Cab Van" classname="Uber Booking feature" time="0.015">
+    <system-out><![CDATA[
+@Uber @Production
+Scenario: Booking  Cab Van                                                              &amp#27;[90m# src/test/resources/AppFeatures/Uber.feature:38&amp#27;[0m
+Step 1 :Van
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser wants to select a car type &amp#27;[0m&amp#27;[32m&amp#27;[1m"Van"&amp#27;[0m&amp#27;[32m from uber application&amp#27;[0m                     &amp#27;[90m# stepDefenitions.UberStepDefenitions.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)&amp#27;[0m
+Step 2:Van:Banglore:Hyderabad
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser select car &amp#27;[0m&amp#27;[32m&amp#27;[1m"Van"&amp#27;[0m&amp#27;[32m and pick up point &amp#27;[0m&amp#27;[32m&amp#27;[1m"Banglore"&amp#27;[0m&amp#27;[32m and drop location &amp#27;[0m&amp#27;[32m&amp#27;[1m"Hyderabad"&amp#27;[0m &amp#27;[90m# stepDefenitions.UberStepDefenitions.user_select_car_and_pick_up_point_and_drop_location(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+Step 3
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mDriver stars the journey&amp#27;[0m                                                         &amp#27;[90m# stepDefenitions.UberStepDefenitions.driver_stars_the_journey()&amp#27;[0m
+Step 4
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcDriver Ends the journey&amp#27;[0m                                                          &amp#27;[90m# stepDefenitions.UberStepDefenitions.c_driver_ends_the_journey()&amp#27;[0m
+Step 5:2000
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser pays &amp#27;[0m&amp#27;[32m&amp#27;[1m2000&amp#27;[0m&amp#27;[32m USD&amp#27;[0m                                                               &amp#27;[90m# stepDefenitions.UberStepDefenitions.user_pays_usd(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
